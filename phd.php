@@ -157,7 +157,7 @@ if ($choose == '1') {
     echo "Masukan ApiKey [?] ";
     $apikey = trim(fgets(STDIN));
     echo "Getting Number [!] ".PHP_EOL;
-    $api_url = 'https://otpku.com/api/json.php'; // api url
+    $api_url = 'https://otpku.com/api/json2.php'; // api url
     $post_data = array(
         'api_key' => $apikey, // api key Anda
         'action' => 'order',
